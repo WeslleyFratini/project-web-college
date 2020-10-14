@@ -10,7 +10,7 @@ body {
     color: #777777;
 }
 
-.ribbon {
+.inicio {
     height: 70px;
     line-height: 70px;
     background: white;
@@ -147,17 +147,19 @@ footer {
 input[type=text],
 input[type=email],
 input[type=textarea],
+input[type=telefone]
 textarea {
     color: #777777;
     width: 100%;
-    border: 1px solid #777777;
+    border: 3px solid black;
 }
 
 input[type=button], 
 input[type=submit], 
 input[type=reset] {
-    background-color: green;
-    color: #fffff
-    f;
+    background-color: white;
+    color: black;
     padding: 10px;
+    align-items: center;
+    /* position: absolute */
 }
